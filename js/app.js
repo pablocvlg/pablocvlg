@@ -9,6 +9,7 @@ import { PersonaPage } from './components/PersonaPage.js';
 import { LangToggle }  from './components/LangToggle.js';
 import { personas }    from './personas/index.js';
 import { lang }        from './state/lang.js';
+import { injectSpeedInsights } from 'https://cdn.jsdelivr.net/npm/@vercel/speed-insights@2.0.0/dist/index.mjs';
 
 const app = document.getElementById('app');
 
@@ -91,4 +92,21 @@ const router = new Router({
   '*': () => renderHome(),
 });
 
+// Initialize Vercel Speed Insights
+const speedInsights = injectSpeedInsights();
+
+// Track route changes for Speed Insights
+if (speedInsights) {
+  window.addEventListener('hashchange', () => {
+    const route = window.location.hash.slice(1) || '/';
+    speedInsights.setRoute(route);
+  });
+}
+
 router.start();
+
+// Set initial route for Speed Insights
+if (speedInsights) {
+  const route = window.location.hash.slice(1) || '/';
+  speedInsights.setRoute(route);
+}
