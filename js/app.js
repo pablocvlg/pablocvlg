@@ -3,12 +3,16 @@
    To add a persona: create js/personas/<id>.js and add it
    to the ALL array in js/personas/index.js.
    ============================================================ */
+import { injectSpeedInsights } from '@vercel/speed-insights';
 import { Router }      from './router.js';
 import { PersonaCard } from './components/PersonaCard.js';
 import { PersonaPage } from './components/PersonaPage.js';
 import { LangToggle }  from './components/LangToggle.js';
 import { personas }    from './personas/index.js';
 import { lang }        from './state/lang.js';
+
+// Initialize Vercel Speed Insights
+injectSpeedInsights();
 
 const app = document.getElementById('app');
 
