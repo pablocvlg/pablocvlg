@@ -8,13 +8,13 @@ export const beyondtech = {
     label:       'Beyond Tech',
     tagline:     'More than just code.',
     description: 'Presentation, languages, jobs beyond IT, and personal interests.',
-    lines:       ['About Me', 'Languages', 'Personal Interests'],
+    lines:       ['About Me', 'Languages', 'Personal Interests', 'Other Experience'],
   },
   es: {
     label:       'No solo código',
     tagline:     'Más allá de la tecnología.',
     description: 'Presentación, idiomas, trabajos aparte de IT, e intereses personales.',
-    lines:       ['Sobre mí', 'Idiomas', 'Intereses Personales'],
+    lines:       ['Sobre mí', 'Idiomas', 'Intereses Personales', 'Otra Experiencia'],
   },
 
   sections: [
@@ -70,6 +70,12 @@ export const beyondtech = {
           es: { title: 'Música', description: 'Me gusta escuchar distintos géneros de música, crear playlists, descubrir nuevos artistas e ir a conciertos.' },
         },
       ],
+    },
+    {
+      id:     'otherexperience',
+      number: '04',
+      title:  { en: 'Other Experience', es: 'Otra Experiencia' },
+      items:  [],
     },
   ],
 };

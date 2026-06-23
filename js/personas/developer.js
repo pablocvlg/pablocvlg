@@ -39,13 +39,8 @@ export const developer = {
       title:  { en: 'Projects', es: 'Proyectos' },
     },
     {
-      id:     'skills',
-      number: '03',
-      title:  { en: 'Knowledge', es: 'Conocimientos' },
-    },
-    {
       id:     'education',
-      number: '04',
+      number: '03',
       title:  { en: 'Education', es: 'Formación' },
       items: [
         {
@@ -76,7 +71,7 @@ export const developer = {
     },
     {
       id:     'certifications',
-      number: '05',
+      number: '04',
       title:  { en: 'Certifications', es: 'Certificaciones' },
       items: [
         
