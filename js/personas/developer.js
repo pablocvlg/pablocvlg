@@ -2,7 +2,7 @@ export const developer = {
   id:       'developer',
   icon:     '💻',
   accent:   'var(--color-developer)',
-  imageSrc: 'assets/images/AIportrait.png',
+  imageSrc: 'assets/images/PortraitAI.png',
 
   en: {
     label:       'Developer',

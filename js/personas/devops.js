@@ -2,7 +2,7 @@ export const devops = {
   id:       'devops',
   icon:     '⚙️',
   accent:   'var(--color-devops)',
-  imageSrc: 'assets/images/portrait.jpg',
+  imageSrc: 'assets/images/Portrait.jpg',
 
   en: {
     label:       'DevOps',

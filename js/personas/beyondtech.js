@@ -2,7 +2,7 @@ export const beyondtech = {
   id:       'beyondtech',
   icon:     '🎨',
   accent:   'var(--color-beyondtech)',
-  imageSrc: 'assets/images/casual.jpeg',
+  imageSrc: 'assets/images/PortraitCasual.jpeg',
 
   en: {
     label:       'Beyond Tech',
@@ -50,22 +50,22 @@ export const beyondtech = {
       title:  { en: 'Personal Interests', es: 'Intereses Personales' },
       items: [
         {
-          imageSrc: 'assets/images/Spartan.jpg',
+          imageSrc: 'assets/images/Sports.jpg',
           en: { title: 'Sports',      description: 'I love all sports, both individual and as a team. This is a picture of the obstacles Spartan Race I completed in Mallorca.' },
           es: { title: 'Deportes',    description: 'Me gustan los deportes tanto individuales como de equipo. Esta foto es de la carrera de obstáculos que corrí en Mallorca.' },
         },
         {
-          imageSrc: 'assets/images/boardgames.jpeg',
+          imageSrc: 'assets/images/BoardGames.jpeg',
           en: { title: 'Board games',   description: 'Board games are amongst my favourite hobbies, whether it is a simple and casual one, or a more complex one.' },
           es: { title: 'Juegos de mesa', description: 'Los juegos de mesa son de mi hobbies favoritos, ya sea uno simple y casual o uno más complejo.' },
         },
         {
-          imageSrc: 'assets/images/Event.jpeg',
+          imageSrc: 'assets/images/Gaming.jpeg',
           en: { title: 'Gaming', description: 'I always have an amazing time when playing video-games with my friends or attending big events.' },
           es: { title: 'Gaming', description: 'Siempre disfruto de un buen rato jugando a videojuegos con amigos, o asistiendo a eventos importantes.' },
         },
         {
-          imageSrc: 'assets/images/music.jpeg',
+          imageSrc: 'assets/images/Music.jpeg',
           en: { title: 'Music', description: 'I like listening to different music genres, creating playlists, discovering new artists, and going to concerts.' },
           es: { title: 'Música', description: 'Me gusta escuchar distintos géneros de música, crear playlists, descubrir nuevos artistas e ir a conciertos.' },
         },
