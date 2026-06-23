@@ -8,13 +8,13 @@ export const beyondtech = {
     label:       'Beyond Tech',
     tagline:     'More than just code.',
     description: 'Presentation, languages, jobs beyond IT, and personal interests.',
-    lines:       ['About Me', 'Languages', 'Personal Interests', 'Other Experience'],
+    lines:       ['About Me', 'Languages', 'Personal Interests'],
   },
   es: {
     label:       'No solo código',
     tagline:     'Más allá de la tecnología.',
     description: 'Presentación, idiomas, trabajos aparte de IT, e intereses personales.',
-    lines:       ['Sobre mí', 'Idiomas', 'Intereses Personales', 'Otra Experiencia'],
+    lines:       ['Sobre mí', 'Idiomas', 'Intereses Personales'],
   },
 
   sections: [
@@ -68,23 +68,6 @@ export const beyondtech = {
           imageSrc: 'assets/images/Music.jpeg',
           en: { title: 'Music', description: 'I like listening to different music genres, creating playlists, discovering new artists, and going to concerts.' },
           es: { title: 'Música', description: 'Me gusta escuchar distintos géneros de música, crear playlists, descubrir nuevos artistas e ir a conciertos.' },
-        },
-      ],
-    },
-    {
-      id:     'otherexperience',
-      number: '04',
-      title:  { en: 'Other Experience', es: 'Otra Experiencia' },
-      items: [
-        {
-          company: 'Self-Employed', logo: null, period: '2019 — 2021', tags: ['Teaching', 'Communication', 'Curriculum Design'],
-          en: { role: 'English Teacher', description: 'Taught conversational English to adults and students, adapting materials to different learning styles and proficiency levels. Prepared customised lesson plans and tracked individual progress over time.' },
-          es: { role: 'Profesor de Inglés', description: 'Impartí clases de inglés conversacional a adultos y estudiantes, adaptando los materiales a distintos estilos de aprendizaje y niveles. Preparé planes de clase personalizados y realicé un seguimiento del progreso individual.' },
-        },
-        {
-          company: 'Various', logo: null, period: '2018 — 2020', tags: ['Coordination', 'Teamwork', 'Customer Service'],
-          en: { role: 'Event Staff', description: 'Worked at concerts, sports events, and corporate gatherings as part of the logistics and coordination team. Managed access control, guided attendees, and collaborated with large crews under pressure.' },
-          es: { role: 'Personal de Eventos', description: 'Trabajé en conciertos, eventos deportivos y corporativos como parte del equipo de logística y coordinación. Gestioné el control de acceso, orienté al público y colaboré con equipos grandes bajo presión.' },
         },
       ],
     },

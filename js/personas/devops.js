@@ -43,7 +43,7 @@ export const devops = {
     },
     {
       id:     'education',
-      number: '03',
+      number: '02',
       title:  { en: 'Education', es: 'Formación' },
       items: [
         {
@@ -73,21 +73,8 @@ export const devops = {
       ],
     },
     {
-      id:     'tools',
-      number: '02',
-      title:  { en: 'Knowledge', es: 'Conocimientos' },
-      items: [
-        { items: ['AWS', 'Azure', 'GCP'],                       en: { category: 'Cloud' },        es: { category: 'Nube' }           },
-        { items: ['Docker', 'Kubernetes', 'Helm'],               en: { category: 'Containers' },   es: { category: 'Contenedores' }   },
-        { items: ['Terraform', 'Ansible', 'Pulumi'],             en: { category: 'IaC' },          es: { category: 'IaC' }            },
-        { items: ['GitHub Actions', 'Jenkins', 'GitLab CI'],     en: { category: 'CI/CD' },        es: { category: 'CI/CD' }          },
-        { items: ['Prometheus', 'Grafana', 'Datadog'],           en: { category: 'Monitoring' },   es: { category: 'Monitorización' } },
-        { items: ['Bash', 'Python', 'PowerShell'],               en: { category: 'Scripting' },    es: { category: 'Scripting' }      },
-      ],
-    },
-    {
       id:     'certifications',
-      number: '04',
+      number: '03',
       title:  { en: 'Certifications', es: 'Certificaciones' },
       items: [
         {
