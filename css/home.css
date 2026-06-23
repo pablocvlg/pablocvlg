@@ -1,0 +1,55 @@
+/* ============================================================
+   Home / Landing page
+   ============================================================ */
+.home {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-8) var(--space-6);
+  text-align: center;
+}
+
+/* ---- Header ---------------------------------------------- */
+.home__header {
+  margin-bottom: var(--space-16);
+  animation: pageEnter 0.5s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+.home__greeting {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--color-developer);
+  letter-spacing: 0.1em;
+  margin-bottom: var(--space-4);
+}
+
+.home__name {
+  font-size: clamp(var(--text-4xl), 9vw, 5rem);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  line-height: 1.05;
+  margin-bottom: var(--space-3);
+}
+
+.home__prompt {
+  font-size: var(--text-xl);
+  font-weight: 500;
+  color: var(--color-text-secondary);
+}
+
+/* ---- Persona grid ---------------------------------------- */
+.home__personas {
+  display: flex;
+  gap: var(--space-8);
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* ---- Responsive ------------------------------------------ */
+@media (max-width: 720px) {
+  .home__personas { gap: var(--space-6); }
+  :root { --persona-card-size: 140px; }
+}
