@@ -3,7 +3,7 @@
    To add a persona: create js/personas/<id>.js and add it
    to the ALL array in js/personas/index.js.
    ============================================================ */
-import { Router }      from './router.js';
+import { Router, navigate } from './router.js';
 import { PersonaCard } from './components/PersonaCard.js';
 import { PersonaPage } from './components/PersonaPage.js';
 import { LangToggle }  from './components/LangToggle.js';
@@ -70,7 +70,7 @@ function renderHome() {
 
 function renderPersona(id) {
   const persona = personaMap[id];
-  if (!persona) { window.location.hash = '/'; return; }
+  if (!persona) { navigate('/'); return; }
 
   _currentRender = () => renderPersona(id);
   app.innerHTML = '';

@@ -1,5 +1,5 @@
 /* ============================================================
-   Hash-based router.
+   History API router.
    Usage:
      const router = new Router({
        '/':          () => renderHome(),
@@ -8,19 +8,22 @@
      });
      router.start();
    ============================================================ */
+
+export function navigate(path) {
+  history.pushState({}, '', path);
+  window.dispatchEvent(new PopStateEvent('popstate'));
+}
+
 export class Router {
   constructor(routes) {
     this._routes = routes;
-    window.addEventListener('hashchange', () => this._resolve());
+    window.addEventListener('popstate', () => this._resolve());
   }
 
   _resolve() {
-    const raw = window.location.hash.slice(1);
-    // Ignore anchor/fragment links (e.g. #section-experience) — only handle SPA routes starting with /
-    if (raw && !raw.startsWith('/')) return;
-    const hash = raw || '/';
-    const handler = this._routes[hash] ?? this._routes['*'];
-    if (handler) handler(hash);
+    const path = window.location.pathname || '/';
+    const handler = this._routes[path] ?? this._routes['*'];
+    if (handler) handler(path);
   }
 
   start() {

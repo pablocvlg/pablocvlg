@@ -2,6 +2,8 @@
    PersonaCard — selectable card on the home landing page.
    Props: { id, label, lines, icon, accent, glow, imageSrc? }
    ============================================================ */
+import { navigate } from '../router.js';
+
 export function PersonaCard(persona, index = 0) {
   const { id, label, lines = [], icon, accent, glow, imageSrc = null } = persona;
 
@@ -32,15 +34,15 @@ export function PersonaCard(persona, index = 0) {
     <span class="persona-card__desc">${linesHTML}</span>
   `;
 
-  function navigate() {
-    window.location.hash = `/${id}`;
+  function navigateTo() {
+    navigate(`/${id}`);
   }
 
-  card.addEventListener('click', navigate);
+  card.addEventListener('click', navigateTo);
   card.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' || e.key === ' ') {
       e.preventDefault();
-      navigate();
+      navigateTo();
     }
   });
 

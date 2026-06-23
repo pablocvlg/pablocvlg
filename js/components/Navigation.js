@@ -2,6 +2,7 @@
    Navigation components
    ============================================================ */
 import { lang } from '../state/lang.js';
+import { navigate } from '../router.js';
 
 export function BackButton() {
   const btn = document.createElement('button');
@@ -22,7 +23,7 @@ export function BackButton() {
   lang.onChange(render);
 
   btn.addEventListener('click', () => {
-    window.location.hash = '/';
+    navigate('/');
   });
   return btn;
 }
