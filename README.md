@@ -26,7 +26,7 @@ I work across both sides of the delivery line: building the application and buil
 **Multi-Agent Pathfinding Solver** — Hospital-domain planner built on a partial-order architecture with space-time A* and conflict detection. University team project.
 `Java` `Python`
 
-**[Finance Tracker](REPO_URL)** — Personal finance application with a dashboard, transaction ledger, forecasting simulator and trend analysis. Dual EUR/DKK.
+**[Finance Tracker](https://github.com/pablocvlg/finances-tracker)** — Personal finance application with a dashboard, transaction ledger, forecasting simulator and trend analysis. Dual EUR/DKK.
 `Next.js` `Supabase` `Recharts` `Vercel`
 
 ---
