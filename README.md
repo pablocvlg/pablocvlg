@@ -34,6 +34,7 @@ I work across both sides of the delivery line: building the application and buil
 ## Toolbox
 
 | | |
+| Class | Tools |
 | **Languages** | Python · Java · TypeScript · JavaScript · SQL · Bash · C |
 | **Frontend** | React · Next.js · Vite · HTML · CSS |
 | **Backend & Data** | Node.js · FastAPI · Supabase · PostgreSQL |
