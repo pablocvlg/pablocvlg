@@ -4,7 +4,7 @@ Software and DevOps engineer. MSc student in Computer Science and Engineering at
 
 I work across both sides of the delivery line: building the application and building the pipeline and infrastructure that ships it. Previously a DevOps engineer at Inycom, working with Azure, Terraform and Azure DevOps.
 
-**[pablocvlg.com](https://pablocvlg.com)** · [LinkedIn](https://www.linkedin.com/in/pablo-casado-vela-aa161822a/) · [Email](mailto:pablocvlg@gmail.com)
+**[Personal Website](https://pablocvlg.com)** · [LinkedIn](https://www.linkedin.com/in/pablo-casado-vela-aa161822a/) · [Email](mailto:pablocvlg@gmail.com)
 
 ---
 
