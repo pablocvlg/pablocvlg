@@ -17,16 +17,16 @@ I work across both sides of the delivery line: building the application and buil
 
 ## Projects
 
-**[pablocvlg.com](https://pablocvlg.com)** — Portfolio site, split into Software Engineering and DevOps tracks.
+**[Personal Website](https://pablocvlg.com)** — Portfolio site, split into Software Engineering and DevOps tracks.
 `HTML` `CSS` `JavaScript` `Vercel`
 
-**[Porra Mundial 2026](REPO_URL)** — World Cup prediction pool. Group brackets, a scoring engine, and a live leaderboard.
+**[Football World Cup 2026 Predictions Website](REPO_URL)** — World Cup prediction pool. Group brackets, a scoring engine, and a live leaderboard.
 `React` `Supabase`
 
-**Multi-agent pathfinding solver** — Hospital-domain planner built on a partial-order architecture with space-time A* and conflict detection. University team project.
+**Multi-Agent Pathfinding Solver** — Hospital-domain planner built on a partial-order architecture with space-time A* and conflict detection. University team project.
 `Java`
 
-**[Finance tracker](REPO_URL)** — Personal finance application with a dashboard, transaction ledger, forecasting simulator and trend analysis. Dual EUR/DKK.
+**[Finance Tracker](REPO_URL)** — Personal finance application with a dashboard, transaction ledger, forecasting simulator and trend analysis. Dual EUR/DKK.
 `Next.js` `Supabase` `Recharts` `Vercel`
 
 ---
