@@ -20,13 +20,13 @@ I work across both sides of the delivery line: building the application and buil
 **[Personal Website](https://pablocvlg.com)** — Portfolio site, split into Software Engineering and DevOps tracks.
 `Cloudflare` `HTML` `CSS` `JavaScript` `Vercel`
 
-**[Football World Cup 2026 Predictions Website](REPO_URL)** — World Cup prediction pool. Group brackets, a scoring engine, and a live leaderboard.
+**[Football World Cup 2026 Predictions Website](REPO_URL)** — World Cup prediction pool. Group + brackets, results-based scoring engine, and a live leaderboard.
 `React` `TypeScript` `Supabase` `Vercel`
 
 **Multi-Agent Pathfinding Solver** — Hospital-domain planner built on a partial-order architecture with space-time A* and conflict detection. University team project.
 `Java` `Python`
 
-**[Finance Tracker](https://github.com/pablocvlg/finances-tracker)** — Personal finance application with a dashboard, transaction ledger, forecasting simulator and trend analysis. Dual EUR/DKK.
+**[Finance Tracker](https://github.com/pablocvlg/finances-tracker)** — Personal finance application with a dashboard, transaction manager, forecasting simulator and trend analysis. Dual currency EUR/DKK.
 `Next.js` `Supabase` `Recharts` `Vercel`
 
 ---
